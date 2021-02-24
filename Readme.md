@@ -10,7 +10,7 @@ The purpose of this lab is to practice pulling in Bootstrap 4's CDN and use its 
 2. Go ahead and initialize a git repository on this project so it will be available to view on your github account.
 3. Create a `README.md` file, copy and past these drill instructions into that file.
 4. Create an `index.html` page, use the keyboard shortcut to get the html doc started.
-5. Go to the following link copy the CDN link and past it in the head of your html document.
+5. Go to the following [link](https://getbootstrap.com/docs/4.0/getting-started/introduction/) copy the CDN link and past it in the head of your html document.
 6. You now have connected the Bootstrap CDN to your project and can begin using Bootstrap 4! Hooray.
 7. Add a `styles.css` document, link it to your html document AFTER the bootstrap link.
 
