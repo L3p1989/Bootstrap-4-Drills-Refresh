@@ -1,85 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Bootstrap 4 Drills</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <!--Container Start-->
-    <div class="container">
-      <!--Row Start-->
-      <div class="row justify-content-center">
-        <h1>First Bootstrap Project</h1>
-      </div>
-      <!--Row End-->
-      <!--Row Start-->
-      <div class="row">
-        <div class="col">This is the start</div>
-        <div class="col">This is the middle</div>
-        <div class="col">This is the end</div>
-      </div>
-      <!--Row End-->
-      <!--Row Start-->
-      <form class="col-12 border border-primary p-3">
-        <div class="form-group">
-          <label for="inputEmail">Email</label>
-          <input type="email" class="form-control" id="inputEmail" />
-        </div>
-        <div class="form-group">
-          <label for="inputPassword">Password</label>
-          <input type="password" class="form-control" id="inputPassword" />
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="catCheck" />
-          <label for="catCheck" class="form-check-label">Cats</label>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="dogCheck" />
-          <label for="dogCheck" class="form-check-label">Dogs</label>
-        </div>
-        <div class="form-check">
-          <input
-            type="radio"
-            name="cheesePizza"
-            id="cheesePizza"
-            class="form-check-input"
-          />
-          <label for="cheesePizza" class="form-check-label">Cheese Pizza</label>
-        </div>
-        <div class="form-check">
-          <input
-            type="radio"
-            name="hawaiianPizza"
-            id="hawaiianPizza"
-            class="form-check-input"
-          />
-          <label for="hawaiianPizza" class="form-check-label"
-            >Hawaiian Pizza</label
-          >
-        </div>
-        <div class="form-check">
-          <input
-            type="radio"
-            name="supremePizza"
-            id="supremePizza"
-            class="form-check-input"
-          />
-          <label for="supremePizza" class="form-check-label"
-            >Supreme Pizza</label
-          >
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bootstrap 4 Drills</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!--Container Start-->
+  <div class="container">
+
+    <!--Row Start-->
+    <div class="row justify-content-center">
+      <h1>First Bootstrap Project</h1>
     </div>
-    <!--Container end-->
-  </body>
+    <!--Row End-->
+
+    <!--Row Start-->
+    <div class="row">
+      <div class="col">This is the start</div>
+      <div class="col">This is the middle</div>
+      <div class="col">This is the end</div>
+    </div>
+    <!--Row End-->
+
+    <!--Row Start-->
+    <form class="col-12 border border-primary p-3">
+
+      <div class="form-group">
+        <label for="inputEmail">Email</label>
+        <input type="email" class="form-control" id="inputEmail" />
+      </div>
+
+      <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input type="password" class="form-control" id="inputPassword" />
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="catCheck" />
+        <label for="catCheck" class="form-check-label">Cats</label>
+      </div>
+
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" id="dogCheck" />
+        <label for="dogCheck" class="form-check-label">Dogs</label>
+      </div>
+
+      <div class="form-check">
+        <input type="radio" name="cheesePizza" id="cheesePizza" class="form-check-input" />
+        <label for="cheesePizza" class="form-check-label">Cheese Pizza</label>
+      </div>
+
+      <div class="form-check">
+        <input type="radio" name="hawaiianPizza" id="hawaiianPizza" class="form-check-input" />
+        <label for="hawaiianPizza" class="form-check-label">Hawaiian Pizza</label>
+      </div>
+
+      <div class="form-check">
+        <input type="radio" name="supremePizza" id="supremePizza" class="form-check-input" />
+        <label for="supremePizza" class="form-check-label">Supreme Pizza</label>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+    </form>
+
+    <div class="row justify-content-start">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Brian</h3>
+          <p class="card-text">He likes trolling</p>
+        </div>
+      </div>
+
+      <div class="w-100"></div>
+
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title">Lynds</h3>
+          <p class="card-text">She likes playing Wreckfest</p>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Necco</h3>
+            <p class="card-text">He's a developer</p>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Siacca</h3>
+            <p class="card-text">Works in the Navy</p>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Glenn</h3>
+            <p class="card-text">Owns his own computer company</p>
+          </div>
+        </div>
+
+        <div class="w-100"></div>
+
+        <div class="card">
+          <div class="card-body">
+            <h3 class="card-title">Julius</h3>
+            <p class="card-text">The closest thing I have to a brother</p>
+          </div>
+        </div>
+
+  </div>
+      <!--Container end-->
+</body>
+
 </html>
